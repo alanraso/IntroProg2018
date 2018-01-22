@@ -47,9 +47,10 @@ def _draw_horizontal_circles(quantity, fill_color = '#FFFFFF'):
         my_t.forward(2*RADIUS + SPACE)
         my_t.pendown()
 
-def draw_board(n, fill_color = '#FFFFFF'):
-    for i in range(0, n):
-        _draw_horizontal_circles(n, fill_color)
+def draw_board(size, fill_color = '#FFFFFF'):
+    _initial_setup()
+    for i in range(0, size):
+        _draw_horizontal_circles(size, fill_color)
         _set_pos_to_initial()
         my_t.penup()
         my_t.setheading(270)
@@ -70,14 +71,10 @@ def _transform_coor_n(x, y):
 def register_click(onclick):
     my_t.getscreen().onclick(lambda x, y: onclick(_transform_coor_n(x, y)))
 
-def init():
-    _initial_setup()
-
 def end():
     turtle.done()
 
 def main():
-    init()
     draw_board(5)
     end()
 

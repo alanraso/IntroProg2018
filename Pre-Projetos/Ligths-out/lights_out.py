@@ -4,6 +4,7 @@ BOARD_SIZE = 5
 YELLOW = '#F2B809'
 WHITE = '#FFFFFF'
 
+# TODO: tabuleiro válido aleatório de tamanho BOARD_SIZE
 lights = [0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 1, 1, 1]
 
 def toggleState(n):
@@ -41,7 +42,6 @@ def toggle_clicked_and_adjascents(n):
         toggle(i)
 
 def main():
-    board.init()
     board.draw_board(BOARD_SIZE, WHITE)
     initial_fill()
     board.register_click(toggle_clicked_and_adjascents)
