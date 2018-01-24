@@ -2,7 +2,7 @@ import turtle
 
 RADIUS = 40
 SPACE = 2
-NOT_FOUNT = -1
+NOT_A_CIRCLE = -1
 my_t = turtle.Turtle()
 
 circle_centers = []
@@ -66,10 +66,18 @@ def _transform_coor_n(x, y):
     for i, center in enumerate(circle_centers):
         if ((x - center[0])**2 + (y - center[1])**2 <= RADIUS**2):
             return i
-    return NOT_FOUNT
+    return NOT_A_CIRCLE
 
 def register_click(onclick):
     my_t.getscreen().onclick(lambda x, y: onclick(_transform_coor_n(x, y)))
+
+def write(text):
+    my_t.color('#FFFFFF')
+    _set_pos(-50, -250)
+    my_t.write(text, False, 'center', ("Arial", 16, "bold"))
+
+def open_dialog(title, text):
+    return my_t.getscreen().textinput(title, text)
 
 def end():
     turtle.done()
