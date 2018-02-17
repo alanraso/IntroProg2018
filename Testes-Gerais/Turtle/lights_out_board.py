@@ -9,9 +9,10 @@ def skip_animations():
 
 def initial_setup():
     skip_animations()
-    my_t.getscreen().bgcolor('#E8E8E8')
+    my_t.getscreen().bgcolor('#222222')
     my_t.pen(my_t.pen(), shown=False) # Hide Pen
     set_pos_to_initial()
+    my_t.pencolor('#222222')
 
 def set_pos_to_initial():
     my_t.penup()
