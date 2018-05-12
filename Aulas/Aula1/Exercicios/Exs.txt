@@ -1,0 +1,36 @@
+1. Escreva um programa que pede que o usuário digite alguma coisa
+e aperte ENTER. Depois, imprime o que foi digitado.
+
+2. Escreva um programa que pede que o usuário digite um número
+e aperte ENTER. Depois, imprime o dobro daquele número.
+
+3. Escreva um programa que recebe três números inteiros como
+entrada e imprime na tela na ordem invertida à digitada, um
+número por linha.
+
+4. Refaça o exercício 3, mas imprimindo os números separando-os
+por vírgula.
+
+5. Faça um programa que guarde a expressão 65/3 em quatro variáveis.
+Coloque os tipos inteiro, float, bool e str (string) nelas. Qual
+será o valor impresso dessas quatro variáveis?
+
+6. Utilizando o programa 5, crie uma nova variável. O que devemos
+colocoar nessa variável para que, ao imprimi-la, vejamos "65/3"
+(sem as aspas)?
+
+7. Dado um número inteiro como entrada, imprimir a metade desse
+número. Seu programa deve imprimir tanto a divisão exata, como
+a divisão inteira.
+
+8. Quantos segundos têm 3 horas?
+
+9. Escreva um programa que recebe um número inteiro de horas e
+imprime quantos segundos se passam nesse período.
+
+10. Escreva um programa que recebe um número (inteiro ou não) de
+kilômetros e imprime o número de metros correspondente.
+
+11. Escreva um programa que recebe um número (inteiro ou não) que
+corresponde a uma velocidade em m/s e imprime qual é essa velocidade
+em km/h.
