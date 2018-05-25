@@ -21,5 +21,8 @@ def registrar_click(acao_click):
 def input_popup(titulo, mensagem):
   return my_t.getscreen().textinput(titulo, mensagem)
 
+def input_num_popup(titulo, mensagem, valor_min, valor_max):
+  return my_t.getscreen().numinput(titulo, mensagem, 5, valor_min, valor_max)
+
 def aguarda():
   turtle.done()
