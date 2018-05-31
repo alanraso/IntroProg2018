@@ -26,3 +26,9 @@ def input_num_popup(titulo, mensagem, valor_min, valor_max):
 
 def aguarda():
   turtle.done()
+
+def limpa_tela():
+  my_t.clear()
+
+def fechar_janela():
+  my_t.getscreen().bye()
