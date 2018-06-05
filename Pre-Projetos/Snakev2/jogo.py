@@ -60,7 +60,7 @@ def move_cobra(direcao, proxima_direcao):
   if cabeca == comida:
     corpo = corpo + [ultima_posicao_corpo]
   elif cabeca in corpo:  
-    cobra_engine.finalizar_jogo('Cobra se matou. Pontuacao final: ', len(cobra) - 4)
+    cobra_engine.finalizar_jogo('Cobra se matou. Pontuacao final: ')
 
   for i in range(len(corpo)):
     tmp = corpo[i]
@@ -69,7 +69,7 @@ def move_cobra(direcao, proxima_direcao):
 
   if PAREDES_LETAIS:
     if cabeca[0] < 0 or cabeca[1] < 0 or cabeca[0] >= TAMANHO_VERTICAL or cabeca[1] >= TAMANHO_HORIZONTAL:
-      cobra_engine.finalizar_jogo('Espatifou-se na parede. Pontuacao final: ', len(cobra) - 4)
+      cobra_engine.finalizar_jogo('Espatifou-se na parede. Pontuacao final: ')
   else:
     if cabeca[0] < 0 or cabeca[0] >= TAMANHO_VERTICAL:
       cabeca[0] = cabeca[0] % TAMANHO_VERTICAL
