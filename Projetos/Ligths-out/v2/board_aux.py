@@ -12,7 +12,6 @@ def init(turtle_var):
 def setup_inicial():
   pular_animacoes()
   my_t.getscreen().bgcolor(CINZA)
-  my_t.pen(my_t.pen(), shown = False) # Hide Pen
 
 def pular_animacoes():
   my_t.speed(0)

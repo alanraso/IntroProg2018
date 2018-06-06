@@ -2,7 +2,7 @@ import turtle
 import board_aux as aux
 import sys
 
-my_t = turtle.Turtle()
+my_t = turtle.Turtle(visible = False)
 aux.init(my_t)
 
 def titulo(t):
