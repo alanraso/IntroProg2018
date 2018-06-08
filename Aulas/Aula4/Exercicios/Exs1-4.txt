@@ -1,0 +1,15 @@
+1. Escreva um programa que recebe um número inteiro (menos o 0) e
+imprime se ele é positivo ou negativo.
+
+2. Escreva um programa que recebe um número inteiro e
+imprime se ele é par ou ímpar.
+
+3. Escreva um programa que recebe como parâmetro um número inteiro
+e imprime se ele é par ou ímpar. 
+
+3. Escreva uma função "maior(a, b, c)" que recebe três números
+inteiros como parâmetro e retorna o maior deles.
+
+4. Escreva um programa que lê três números inteiros e imprime se
+eles podem formar um triângulo. Dica: use a função do exercício
+anterior.
