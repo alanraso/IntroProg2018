@@ -56,3 +56,13 @@ print(op_or)
 print('not - o oposto')
 print(num < 5)
 print(not num < 5)
+
+# Expressoes booleanas VS. valores
+print('' and 3)
+print('' or 3)
+
+print(0 and 'Ola')
+print(0 or 'Ola')
+
+print(1 and 3)
+print(1 or 3)
