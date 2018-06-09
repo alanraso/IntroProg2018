@@ -1,0 +1,24 @@
+1. Escreva um programa que recebe um número inteiro (menos o 0) e
+imprime se ele é positivo ou negativo.
+
+2. Escreva um programa que recebe um número inteiro e
+imprime se ele é par ou ímpar.
+
+4. Escreva uma função que receba dois números e 
+  - imprima o primeiro número se ambos forem diferentes de zero
+  - imprima zero se quaisquer dos dois números forem zero 
+
+5. Escreva uma função que receba dois números e
+  - imprima o segundo número se ambos forem diferentes de zero
+  - imprima o número que for diferente de zero, se um dos números recebidos for igual a zero
+
+6. Escreva uma função que dois valores, um mẽs e um dia (0-31), e
+  - retorna True se o mês contiver o dia
+  - retorna False se o mês não tiver o dia dado
+
+7. Escreva uma função "maior(a, b, c)" que recebe três números
+inteiros como parâmetro e retorna o maior deles.
+
+8. Escreva um programa que lê três números inteiros e imprime se
+eles podem formar um triângulo. Dica: use a função do exercício
+anterior.
