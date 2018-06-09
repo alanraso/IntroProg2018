@@ -15,6 +15,10 @@ e imprime se ele é par ou ímpar.
   - imprima o segundo número se ambos forem diferentes de zero
   - imprima o número que for diferente de zero, se um dos números recebidos for igual a zero
 
+6. Escreva uma função que dois valores, um mẽs e um dia (0-31), e
+  - retorna True se o mês contiver o dia
+  - retorna False se o mês não tiver o dia dado
+
 3. Escreva uma função "maior(a, b, c)" que recebe três números
 inteiros como parâmetro e retorna o maior deles.
 
