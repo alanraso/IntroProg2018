@@ -5,7 +5,7 @@ M existem em N.
 
 Recebe uma string e retorna uma nova string com os caracteres invertidos (exemplo: abacate -> etacaba).
 
-Escolhe um numero aleatorio. O usuario deve tentar advinhar o numero escolhido pelo programa. A cada palpite dado pelo usuario,
+Escolhe um numero aleatorio menor que 20. O usuario deve tentar advinhar o numero escolhido pelo programa. A cada palpite dado pelo usuario,
 o programa deve avisar se o numero verdadeiro é maior ou menor que o palpite dado. Se o usuario acertar o número escolhido pelo programa, imprima uma mensagem de sucesso e termine. O jogador tem 
 6 chances.
 
