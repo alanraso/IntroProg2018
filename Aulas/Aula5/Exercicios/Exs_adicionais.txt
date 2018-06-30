@@ -1,0 +1,15 @@
+Escreva programas que:
+
+Recebe numeros N e M. O programa deve contar quantos algarismos
+M existem em N.
+
+Recebe uma string e retorna uma nova string com os caracteres invertidos (exemplo: abacate -> etacaba).
+
+Escolhe um numero aleatorio. O usuario deve tentar advinhar o numero escolhido pelo programa. A cada palpite dado pelo usuario,
+o programa deve avisar se o numero verdadeiro é maior ou menor que o palpite dado. Se o usuario acertar o número escolhido pelo programa, imprima uma mensagem de sucesso e termine. O jogador tem 
+6 chances.
+
+Imprimam todos os numeros maiores que zero e menores que 10000 divisiveis por 3 ou 7 
+
+Crie um programa que imprima todos os numeros primos menores que 
+26661
