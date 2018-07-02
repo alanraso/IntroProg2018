@@ -1,0 +1,32 @@
+1. Escreva um programa que recebe um número inteiro (menos o 0) e
+imprime se ele é positivo ou negativo.
+
+2. Escreva um programa que recebe um número inteiro e
+imprime se ele é par ou ímpar.
+
+3. Escreva uma função que receba dois números e 
+  - imprima o primeiro número se ambos forem diferentes de zero
+  - imprima zero se quaisquer dos dois números forem zero 
+
+4. Escreva uma função que receba dois números e
+  - imprima o segundo número se ambos forem diferentes de zero
+  - imprima o número que for diferente de zero, se um dos números recebidos for igual a zero
+
+5. Escreva uma função que dois valores, um mẽs e um dia (0-31), e
+  - retorna True se o mês contiver o dia
+  - retorna False se o mês não tiver o dia dado
+
+6. Escreva uma função "maior(a, b, c)" que recebe três números
+inteiros como parâmetro e retorna o maior deles.
+
+7. Escreva um programa que lê três números inteiros e imprime se
+eles podem formar um triângulo. Dica: você pode, se quiser, usar
+a função do exercício anterior.
+
+8. Escreva um programa que lê um número inteiro n com exatamente
+3 dígitos, e um outro número d que é apenas um algrismo e imprime
+quantas vezes o dígito d ocorre no número n. Exemplo: se n for
+344 e d for 4, seu programa deve imprimir 2.
+
+9. Escreva um programa que lê 3 números inteiros e os imprime em
+ordem crescente.

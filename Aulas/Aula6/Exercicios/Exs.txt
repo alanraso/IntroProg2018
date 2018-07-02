@@ -1,0 +1,20 @@
+1. Dado um inteiro n, imprimir todo os números ímpares de 1 a n.
+
+2. Refaça o Exercício 11 da Aula 2 (enunciado copiado abaixo). Seu programa
+deve perguntar, ao final, se ele deseja executaar novamente o calculo. Caso
+receba como entrada um S, é executado novamente. Caso receba um N, encerra
+o programa.
+
+  Ex 11 Aul 2 -
+  Numa sorveteria, o vendedor estimou seu gasto mensal com energia
+  elétrica, água, limpeza e outras despesas como sendo aproximadamente
+  R$1800,00 por mês. Supondo que ele lucre R$2,00 por bola de sorvete
+  que ele vender, escreva um programa que recebe como entrada o lucro
+  desejado pelo sorveteiro em 1 ano e imprime na tela quantas bolas de
+  sorvete ele deve vender para isso.
+
+3. Escreva uma função chamada "eh_quadrado_perfeito", que recebe um numero
+inteiro n como parâmetro e retorna True caso seja um quadrado perfeito, e
+False, caso não seja.
+
+4. Dado um inteiro n, imprimir os quadrados perfeitos de 1 a n.
