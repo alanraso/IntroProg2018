@@ -18,11 +18,16 @@ e a imprime trocando todas as vogais por a.
 6. Escreva uma função que recebe como parâmetro um número positivo e retorna
 o número de algarismos que têm esse número.
 
-7. Escreva um programa que escolhe um numero aleatorio menor que 20. O
-usuario deve tentar advinhar o numero escolhido pelo programa. A cada
-palpite dado pelo usuario, o programa deve avisar se o numero verdadeiro
-é maior ou menor que o palpite dado. Se o usuario acertar o número 
+7. (Meu primeiro joguinho!) Escreva um programa que sorteia um numero positivo
+aleatorio menor que 20. O usuario deve tentar advinhar o numero escolhido pelo
+programa. A cada palpite dado pelo usuario, o programa deve avisar se o numero
+escolhido é maior ou menor que o palpite dado. Se o usuario acertar o número 
 escolhido pelo programa, imprima uma mensagem de sucesso e termine.
-O jogador tem 6 chances.
+O jogador tem 6 chances. Dica: use o comando 'import random' antes do seu
+programa. Você terá acesso a função 'random.randint(a, b)', que retorna um
+número inteiro n tal que a <= n <= b.
 
-8. Escreva um programa que imprime a soma dos numeros primos de 1 a 1000.
+8. Complemente o exercício anterior perguntando se o usuário deseja jogar
+novamente.
+
+9. Escreva um programa que imprime a soma dos numeros primos de 1 a 1000.

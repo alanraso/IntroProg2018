@@ -22,11 +22,11 @@ def calcula_imc():
   
   print(mensagem)
 
-calcula = True
+termina = False
 
-while calcula:
+while not termina:
   calcula_imc()
   resposta = input('Calcular novamente? (s/n): ')
   print('') # Pular linha
-  if resposta != 'S' and resposta != 's':
-    calcula = False
+  if resposta == 'S' or resposta == 's':
+    termina = True
