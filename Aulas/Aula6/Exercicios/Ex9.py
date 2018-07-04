@@ -12,7 +12,6 @@ soma = 0
 
 for i in range(1, 1000):
   if primo(i):
-    print(i, '')
     soma += i
 
-print(soma)
+print(soma) # 76127
