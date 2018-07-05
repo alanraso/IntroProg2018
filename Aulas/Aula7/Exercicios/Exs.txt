@@ -1,0 +1,33 @@
+1. Crie uma lista que contenha os N primeiros números divisíveis por 3, sendo N uma entrada do usuário (input)
+
+2. Escreva uma função 'armazena_aluno' que recebe como argumentos um nome, sobrenome e email, e retorna uma lista
+contendo esses dados.
+
+3. Escreva uma função 'eh_lista' que recebe um argumento qualquer 'arg' e retorna
+   - True, se 'arg' for uma lista
+   - False, se 'arg' nao for uma lista
+
+4. Escreva uma função 'adiciona_exp' que recebe uma lista 'lista', um numero 'num' e um expoente 'exp'. 
+Essa função deve adicionar em 'lista' um item que seja o valor de 'num' elevado a 'exp'.
+
+5. Escreva uma função 'soma_listas', que receba duas listas e retorna a união delas.
+
+Exemplo: soma_listas([1, 2], [2, 2, 5]) => [1, 2, 5]
+         soma_listas([0, 1, 2, 3], [2, 3, 1, 4, 6]) => [0, 1, 2, 3, 4, 6]
+
+6. Escreva um programa que espera por uma entrada do usuario. Quando o usuário insere um número, 
+o programa deve:
+  - colocar esse número em uma lista
+  - imprimir a lista
+  - esperar por uma outra entrada (e repetir o processo acima)
+
+  O programa só termina quando o usuário insere o número -1
+
+7. Escreva uma função 'lista_exponencial' que recebe como argumentos uma lista e um número N.
+Essa função deve retornar uma nova lista contendo os elementos da lista recebida elevados a N.
+
+Exemplo: lista_exponencial([1,2,3], 4) => [1, 16, 81]
+
+(DESAFIO) 8. Escreva um função 'planificar' que recebe uma lista bi-dimensional e retorna uma uni-dimensional
+
+Exemplo: planificar([ [1, 2], [3, 4, 5], 6]) => [1, 2, 3, 4, 5, 6]
