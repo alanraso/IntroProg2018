@@ -1,20 +1,33 @@
 1. Dado um inteiro n, imprimir todo os números ímpares de 1 a n.
 
-2. Refaça o Exercício 11 da Aula 2 (enunciado copiado abaixo). Seu programa
-deve perguntar, ao final, se ele deseja executaar novamente o calculo. Caso
-receba como entrada um S, é executado novamente. Caso receba um N, encerra
-o programa.
+2. Imprima todos os números inteiros maiores que zero e menores
+que 1000 que são divisíveis por 3 ou 7.
 
-  Ex 11 Aul 2 -
-  Numa sorveteria, o vendedor estimou seu gasto mensal com energia
-  elétrica, água, limpeza e outras despesas como sendo aproximadamente
-  R$1800,00 por mês. Supondo que ele lucre R$2,00 por bola de sorvete
-  que ele vender, escreva um programa que recebe como entrada o lucro
-  desejado pelo sorveteiro em 1 ano e imprime na tela quantas bolas de
-  sorvete ele deve vender para isso.
+3. Escreva um programa que lê uma string e a imprime com os caracteres
+invertidos (exemplo: abacate -> etacaba).
 
-3. Escreva uma função chamada "eh_quadrado_perfeito", que recebe um numero
-inteiro n como parâmetro e retorna True caso seja um quadrado perfeito, e
-False, caso não seja.
+4. Escreva um programa que lê uma palavra ou frase (tudo minúsculo e sem acentos)
+e a imprime trocando todas as vogais por a.
 
-4. Dado um inteiro n, imprimir os quadrados perfeitos de 1 a n.
+5. a) Escreva uma função chamada "quadrado_perfeito", que recebe um
+  numero inteiro n como parâmetro e retorna True caso seja um quadrado
+  perfeito, e False, caso não seja.
+
+  b) Dado um inteiro n, imprimir os quadrados perfeitos de 1 a n.
+
+6. Escreva uma função que recebe como parâmetro um número positivo e retorna
+o número de algarismos que têm esse número.
+
+7. (Meu primeiro joguinho!) Escreva um programa que sorteia um numero positivo
+aleatorio menor que 20. O usuario deve tentar advinhar o numero escolhido pelo
+programa. A cada palpite dado pelo usuario, o programa deve avisar se o numero
+escolhido é maior ou menor que o palpite dado. Se o usuario acertar o número 
+escolhido pelo programa, imprima uma mensagem de sucesso e termine.
+O jogador tem 6 chances. Dica: use o comando 'import random' antes do seu
+programa. Você terá acesso a função 'random.randint(a, b)', que retorna um
+número inteiro n tal que a <= n <= b.
+
+8. Complemente o exercício anterior perguntando se o usuário deseja jogar
+novamente.
+
+9. Escreva um programa que imprime a soma dos numeros primos de 1 a 1000.
