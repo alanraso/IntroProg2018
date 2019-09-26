@@ -22,7 +22,7 @@ def achar_circulo(x, y):
 
 def achar_circulo_uni(x):
   for i in list(range(DIM)):
-    if( x > (centro_circulo_uni(i) - RAIO) and x < (centro_circulo_uni(i) + RAIO)):
+    if (x > (centro_circulo_uni(i) - RAIO) and x < (centro_circulo_uni(i) + RAIO)):
       return i
 
 def desenha_circulo(x, y,aceso):
@@ -99,4 +99,3 @@ def main():
 
 if __name__ == "__main__":
   main()
-
