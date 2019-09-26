@@ -1,10 +1,9 @@
-1. Terminar os [exercícios](../Aula6/Exercicios/Exs.txt) não terminados da Aula 5 (ao menos ate o 5b)
-2. Listas
+1. Listas
   * Declaração
   * Múltiplos tipos
   * Listas bi-dimensionais
   * Operador in
-3. Métodos
+2. Métodos
   * append
-4. Usando listas com for
-5. Exercícios Listas
+3. Usando listas com for
+4. Exercícios Listas

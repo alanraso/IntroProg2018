@@ -66,12 +66,9 @@ def clicar(x, y):
 def venceu():
   a = MATRIX[0][0]
   for i in list(range(0,DIM)):
-    print( MATRIX[i][i], a)
     if(MATRIX[i][i] != a): 
       return False
     for j in list(range(i+1,DIM)):
-      print( MATRIX[j][i], a)
-      print( MATRIX[i][j], a)
       if(MATRIX[i][j] != a or MATRIX[j][i]!=a): 
         return False
   return True

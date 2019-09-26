@@ -31,7 +31,7 @@ else:
 # 5
 nome = input('Digite seu nome ')
 
-if nome: # Pq nao num == '' ?
+if nome: # Pq nao nome == '' ?
   print('Obrigado ' + nome + ' !')
 else:
   print('Ops, nenhuma entrada recebida')

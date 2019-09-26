@@ -21,7 +21,3 @@ else:
   menor = c
 
 print(menor, meio, maior)
-
-
-
-

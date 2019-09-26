@@ -1,5 +1,0 @@
-1. Escreva um programa que pede que o usuário digite alguma coisa
-e aperte ENTER. Depois, imprime o que foi digitado.
-
-2. Escreva um programa que pede que o usuário digite um número
-e aperte ENTER. Depois, imprime o dobro daquele número.
