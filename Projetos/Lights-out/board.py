@@ -11,7 +11,7 @@ def titulo(t):
 def muda_cor_fundo(cor):
   my_t.getscreen().bgcolor(cor)
 
-def desenha_circulo(pos_centro, raio, cor = '#FFFFFF'):
+def desenha_circulo(pos_centro, raio, cor = '#000000'):
   aux.muda_pos(pos_centro)
   my_t.dot(2 * raio, cor)
 

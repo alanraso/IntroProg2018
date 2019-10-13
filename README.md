@@ -1,3 +1,3 @@
 # IntroProg2018
 
-Cursinho de programação para alunos do ISMART em 2018
+Cursinho de introdução à programação, montado em 2018 e refinado nos anos posteriores
