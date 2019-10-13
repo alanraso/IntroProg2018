@@ -18,6 +18,9 @@ e a imprime trocando todas as vogais por a.
 6. Escreva uma função que recebe como parâmetro um número positivo e retorna
 o número de algarismos que têm esse número.
 
+7. Escreva um programa que recebe como como parâmetro uma palavra (sem acentos) e
+imprime quantas vogais e quantas consoantes existem nessa palavra.
+
 7. (Meu primeiro joguinho!) Escreva um programa que sorteia um numero positivo
 aleatorio menor que 20. O usuario deve tentar advinhar o numero escolhido pelo
 programa. A cada palpite dado pelo usuario, o programa deve avisar se o numero

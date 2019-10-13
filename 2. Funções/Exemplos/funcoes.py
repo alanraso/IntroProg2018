@@ -1,4 +1,4 @@
-# Função simples (exlicar identação)
+# Função simples (explicar identação)
 def imprime_oi():
   print('oi')
 
@@ -12,10 +12,10 @@ def imprime_duas_vezes(palavra):
 imprime_duas_vezes('Ola')
 
 # Função mais parâmetros
-def imprime_com_virgula(p1, p2, p3):
-  print(p1 + ',' + p2 + ',' + p3)
+def imprime_com_traco(p1, p2, p3):
+  print(p1 + '-' + p2 + '-' + p3)
 
-imprime_com_virgula('alo', 'ola', 'ole')
+imprime_com_traco('alo', 'ola', 'ole')
 
 # Função com retorno
 def converte_para_segundos(horas):

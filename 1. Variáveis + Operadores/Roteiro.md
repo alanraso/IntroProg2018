@@ -12,14 +12,16 @@
   + Instalação das extensões
   + Programa Hello world
   + Drive
-## 4. Apresentação do ambiente interativo do python
-## 5. Variáveis:
+## 4. Variáveis:
   + "Caixinhas" na memória
   + Tipos básicos:
     + int
     + float
     + string
     + bool
+## 5. Input
+  + Como guardar algo digitado no teclado
+  + Como guardar mais de um valor
 ## 6. Operadores numéricos:
   + Soma
   + Subtração
@@ -27,9 +29,5 @@
   + Divisão / Divisão inteira
   + Resto da divisão
   + Potenciação
-## 7. Print com variáveis
-## 8. Input
-  + Como guardar algo digitado no teclado
-  + Como guardar mais de um valor
 
 9. [Exercícios](./Exercicios)

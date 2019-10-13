@@ -1,6 +1,0 @@
-6. 
-a) Escreva um programa que imprime o seguinte tabuleiro 3 por 3:
-
-b) Escreva uma função que recebe como parâmetro um inteiro n,
-que vale entre 1 e 10. Ela deve imprimir na tela um tabuleiro semelhante
-ao exercício a, com tamanho n x n.
