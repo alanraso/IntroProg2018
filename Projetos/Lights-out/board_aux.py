@@ -1,6 +1,7 @@
 import turtle
 
 CINZA = '#4A4A4A'
+OFFSET = -250
 
 my_t = None
 
@@ -20,5 +21,5 @@ def pular_animacoes():
 
 def muda_pos(pos):
   my_t.penup()
-  my_t.setpos(pos)
+  my_t.setpos((pos[0] + OFFSET, pos[1] + OFFSET))
   my_t.pendown()
