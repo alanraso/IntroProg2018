@@ -32,6 +32,7 @@ def desenha_circulo(pos, aceso):
   board.desenha_circulo(pos, RAIO, color)
 
 def desenha_tabuleiro():
+  print(CENTROS)
   for i in range(DIMENSAO):
     CENTROS.append([])
     ESTADOS_LAMPADAS.append([])
@@ -84,6 +85,7 @@ def finaliza_jogo():
     board.fechar_janela()
 
 def inicio_jogo():
+  ESTADOS_LAMPADAS.clear()
   CENTROS.clear()
   board.limpa_tela()
   desenha_tabuleiro()
