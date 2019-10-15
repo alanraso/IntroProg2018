@@ -1,28 +1,33 @@
-## 1. Apresentação:
+## Apresentação:
   + Por que o curso?
   + Objetivo
   + Projetinho
-## 2. Introdução:
+
+## Introdução:
   + O que é um programa
   + "Linguagem" que o computador entende?
   + Linguagem de programação
   + Compilador
-## 3. Hello world:
+
+## Hello world:
   + Apresentação do VSCode
   + Instalação das extensões
   + Programa Hello world
   + Drive
-## 4. Variáveis:
+
+## Variáveis:
   + "Caixinhas" na memória
   + Tipos básicos:
     + int
     + float
     + string
     + bool
-## 5. Input
+
+## Input
   + Como guardar algo digitado no teclado
   + Como guardar mais de um valor
-## 6. Operadores numéricos:
+
+## Operadores numéricos:
   + Soma
   + Subtração
   + Multiplicação
@@ -30,4 +35,6 @@
   + Resto da divisão
   + Potenciação
 
-9. [Exercícios](./Exercicios)
+---
+
+[Exercícios](./Exercicios)

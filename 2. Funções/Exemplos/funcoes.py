@@ -19,7 +19,7 @@ imprime_com_traco('alo', 'ola', 'ole')
 
 # Função com retorno
 def converte_para_segundos(horas):
-  return horas*60*60
+  return horas * 60 * 60
 
 segundos = converte_para_segundos(3)
 print(segundos)
