@@ -17,7 +17,7 @@ def desenha_circulo(pos_centro, raio, cor = '#000000'):
   my_t.dot(2 * raio, cor)
 
 def registrar_click(acao_click):
-  my_t.getscreen().onclick(acao_click)
+  my_t.getscreen().onclick(lambda x, y : acao_click(x - aux.OFFSET, y - aux.OFFSET))
 
 def input_popup(titulo, mensagem):
   return my_t.getscreen().textinput(titulo, mensagem)

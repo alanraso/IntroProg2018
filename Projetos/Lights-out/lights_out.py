@@ -1,94 +1,93 @@
 # -*- coding: utf-8 -*-
 import board
 
-RAIO = 25
-DIST = 5
+RAIO = 40
+DISTANCIA_ENTRE_LAMPADAS = 5
+DIMENSAO = 5
 COR_FUNDO = '#FFFFFF'
 COR_ACESO = '#FFFF00'
 COR_APAGADO = '#000000'
+CENTROS = []
+ESTADOS_LAMPADAS = []
+ESTADO_INICIAL_LAMPADAS = [
+  [False, True, False, False, True],
+  [True, False, False, True, False],
+  [False, False, False, True, False],
+  [True, True, True, True, False],
+  [True, False, True, False, False],
+]
 
-MENSAGEM_INICIAL = 'O objetivo deste jogo é apagar todas as lâmpadas, ou acender todas.\nQual dimensao do seu jogo?'
+def acha_circulo(x, y):
+  for i in range(DIMENSAO):
+    for j in range(DIMENSAO):
+      centro_x = CENTROS[i][j][0]
+      centro_y = CENTROS[i][j][1]
+      if (x - centro_x) ** 2 + (y - centro_y) ** 2 <= RAIO ** 2:
+        return (i, j)
 
-def centro_circulo(x,y):
-  return [centro_circulo_uni(x), centro_circulo_uni(y)]
+  return None
 
-def centro_circulo_uni(x):
-  return INICIO+(2*x+1)*(RAIO+DIST)
-
-def achar_circulo(x, y):
-  x_1 = achar_circulo_uni(x)
-  y_1 = achar_circulo_uni(y)
-  return [x_1 , y_1]
-
-def achar_circulo_uni(x):
-  for i in list(range(DIM)):
-    if (x > (centro_circulo_uni(i) - RAIO) and x < (centro_circulo_uni(i) + RAIO)):
-      return i
-
-def desenha_circulo(x, y,aceso):
+def desenha_circulo(pos, aceso):
   color = COR_ACESO if aceso else COR_APAGADO
-  board.desenha_circulo(centro_circulo(x, y), RAIO, color)
+  board.desenha_circulo(pos, RAIO, color)
 
 def desenha_tabuleiro():
-  for i in list(range(DIM)):
-    desenha_circulo(i,i, False)
-    for j in list(range(i+1, DIM)):
-      desenha_circulo(i,j, False)
-      desenha_circulo(j,i, False)
+  for i in range(DIMENSAO):
+    CENTROS.append([])
+    ESTADOS_LAMPADAS.append([])
+    for j in range(DIMENSAO):
+      centro_x = i * (2 * RAIO + DISTANCIA_ENTRE_LAMPADAS)
+      centro_y = j * (2 * RAIO + DISTANCIA_ENTRE_LAMPADAS)
+      CENTROS[i].append((centro_x, centro_y))
+      ESTADOS_LAMPADAS[i].append(ESTADO_INICIAL_LAMPADAS[i][j])
+      desenha_circulo((centro_x, centro_y), ESTADOS_LAMPADAS[i][j])
 
-def inicia_matrix():
-  global MATRIX
-  MATRIX = [0] * DIM
-  for i in list(range(DIM)):
-    MATRIX[i] = [0] * DIM
-
-def atualiza_matrix(x, y):
-  MATRIX[x][y] = 0 if MATRIX[x][y]==1 else 1
-
-def atualiza(x, y):
-  atualiza_matrix(x, y)
-  desenha_circulo(x, y, MATRIX[x][y])
+def atualiza(i, j):
+  ESTADOS_LAMPADAS[i][j] = 0 if ESTADOS_LAMPADAS[i][j] == 1 else 1
+  desenha_circulo(CENTROS[i][j], ESTADOS_LAMPADAS[i][j])
 
 def clicar(x, y):
-  c = achar_circulo(x, y)
+  c = acha_circulo(x, y)
+
+  if c == None:
+    return
+
   atualiza(c[0], c[1])
-  if(c[0] + 1 < DIM):
+
+  if c[0] + 1 < DIMENSAO:
     atualiza(c[0]+1, c[1])
-  if(c[1] + 1 < DIM):
+  if c[1] + 1 < DIMENSAO:
     atualiza(c[0], c[1]+1)
-  if(c[0] - 1 >= 0):
+  if c[0] - 1 >= 0:
     atualiza(c[0]-1, c[1])
-  if(c[1] - 1 >= 0):
+  if c[1] - 1 >= 0:
     atualiza(c[0], c[1]-1)
-  if(venceu()):
-    fim_jogo()
+  if venceu():
+    finaliza_jogo()
 
 def venceu():
-  a = MATRIX[0][0]
-  for i in list(range(0,DIM)):
-    if(MATRIX[i][i] != a): 
-      return False
-    for j in list(range(i+1,DIM)):
-      if(MATRIX[i][j] != a or MATRIX[j][i]!=a): 
+  a = ESTADOS_LAMPADAS[0][0]
+
+  for i in range(DIMENSAO):
+    for j in range(DIMENSAO):
+      if ESTADOS_LAMPADAS[i][j] != a:
         return False
+
   return True
 
-def fim_jogo():
-  res = board.input_popup("Parabens", "Muito bem!!Você ganhou o jogo =D =D\nDigite 'sim' para jogar novamente.")
-  if(res == 'sim'):
+def finaliza_jogo():
+  res = board.input_popup("Parabens", "Você ganhou o jogo! Deseja jogar novamente? (S / N)")
+
+  if res == 'S' or res == 's':
     inicio_jogo()
   else:
     board.fechar_janela()
 
 def inicio_jogo():
+  ESTADOS_LAMPADAS.clear()
+  CENTROS.clear()
   board.limpa_tela()
-  global DIM
-  DIM = int(board.input_num_popup('Bem vindo!!', MENSAGEM_INICIAL, 3, 10))
-  total = DIM*(2*RAIO) + ((DIM+1)*DIST)
-  global INICIO 
-  INICIO = -(total)/2
   desenha_tabuleiro()
-  inicia_matrix()
   board.registrar_click(clicar)
   board.aguarda()
 

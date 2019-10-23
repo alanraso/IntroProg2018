@@ -1,6 +1,7 @@
 import turtle
 
 CINZA = '#4A4A4A'
+OFFSET = -250
 
 my_t = None
 
@@ -22,5 +23,5 @@ def pular_animacoes():
 def muda_pos(pos):
   my_t.penup()
   # Offset to open possibility of working only with positive numbers
-  my_t.setpos((pos[0] - 225, pos[1] - 225))
+  my_t.setpos((pos[0] + OFFSET, pos[1] + OFFSET))
   my_t.pendown()

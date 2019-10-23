@@ -6,7 +6,7 @@ retorna o valor dela em km/h
 
 3. Escreva uma função que recebe dois parâmetros que representam dois
 catetos de um triângulo retângulo e retorna o valor da hipotenusa.
-Dica: o python possui uma função math.sqrt(n) para calcular raiz quadrada.
+Dica: o Python possui uma função math.sqrt(n) para calcular raiz quadrada.
 
 4. Escreva uma função que recebe uma string que é uma palavra, e uma
 outra string, que é um delimitador, e imprime na tela a palavra duas
