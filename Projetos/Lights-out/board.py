@@ -10,6 +10,7 @@ def titulo(t):
 
 def muda_cor_fundo(cor):
   my_t.getscreen().bgcolor(cor)
+  turtle.color(cor)
 
 def desenha_circulo(pos_centro, raio, cor = '#000000'):
   aux.muda_pos(pos_centro)
@@ -17,7 +18,7 @@ def desenha_circulo(pos_centro, raio, cor = '#000000'):
 
 def registrar_click(acao_click):
   my_t.getscreen().onclick(acao_click)
-  
+
 def input_popup(titulo, mensagem):
   return my_t.getscreen().textinput(titulo, mensagem)
 

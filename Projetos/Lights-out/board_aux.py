@@ -12,6 +12,7 @@ def init(turtle_var):
 def setup_inicial():
   pular_animacoes()
   my_t.getscreen().bgcolor(CINZA)
+  my_t.pencolor('brown')
   my_t.pen(my_t.pen(), shown = False) # Hide Pen
 
 def pular_animacoes():
@@ -20,5 +21,6 @@ def pular_animacoes():
 
 def muda_pos(pos):
   my_t.penup()
-  my_t.setpos(pos)
+  # Offset to open possibility of working only with positive numbers
+  my_t.setpos((pos[0] - 225, pos[1] - 225))
   my_t.pendown()

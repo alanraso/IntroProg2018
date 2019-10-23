@@ -22,20 +22,14 @@ programa que imprime essa string duplicada. Ex: se for digitado
 8. Ainda seguindo o modelo do exercício anterior, imprima a
 string digitada 10 vezes, separadas por vírgula.
 
-9. Escreva um programa que recebe um número (inteiro) de horas e
-imprime quantos segundos se passam nesse período.
-
-10. Escreva um programa que recebe um número (inteiro ou não) de
-kilômetros e imprime o número de metros correspondentes.
-
-11. Escreva um programa que recebe um número (inteiro ou não) que
+9. Escreva um programa que recebe um número (inteiro ou não) que
 corresponde a uma velocidade em m/s e imprime qual é essa velocidade
 em km/h.
 
-12. Escreva um programa que pergunta o peso e altura do usuário
+10. Escreva um programa que pergunta o peso e altura do usuário
 e calcula seu IMC. (IMC = peso/altura²)
 
-13. Numa sorveteria, o vendedor estimou seu gasto mensal com energia
+11. Numa sorveteria, o vendedor estimou seu gasto mensal com energia
 elétrica, água, limpeza e outras despesas como sendo em média cerca
 de R$ 1800,00 / mês. Supondo que ele lucre R$2,00 por bola de sorvete
 que ele vender, escreva um programa que recebe como entrada o lucro
