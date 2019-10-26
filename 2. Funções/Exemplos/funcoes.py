@@ -1,4 +1,4 @@
-# Função simples (explicar identação)
+# Função sem parâmetro
 def imprime_oi():
   print('oi')
 
@@ -6,23 +6,25 @@ imprime_oi()
 
 # Função com parâmetro
 def imprime_duas_vezes(palavra):
-  print(palavra)
-  print(palavra)
+  print(palavra + palavra)
 
-imprime_duas_vezes('Ola')
+imprime_duas_vezes('Oi')
 
-# Função mais parâmetros
-def imprime_com_traco(p1, p2, p3):
-  print(p1 + '-' + p2 + '-' + p3)
+# Função com mais parâmetros
+def imprime_com_virgula(p1, p2, p3):
+  print(f'{p1},{p2},{p3}')
 
-imprime_com_traco('alo', 'ola', 'ole')
+imprime_com_virgula('A', 'B', 'C')
 
-# Função com retorno
+# Função que retorna um valor
 def converte_para_segundos(horas):
+  print(type(horas))
   return horas * 60 * 60
 
-segundos = converte_para_segundos(3)
-print(segundos)
+a = converte_para_segundos(3)
+b = converte_para_segundos(2)
+print(a)
+print(b)
 
 # Como fica o print e o type delas?
 print(converte_para_segundos)
