@@ -1,13 +1,17 @@
 # Expressão numérica
-num = 3 + 5*6 + 7/(6 + 1) - 45
+num = 3 + 5 * 6 + 7 / (6 + 1) - 45
 
 # --------------------
 # Expressões booleanas
 # --------------------
 print('Expressões booleanas')
-comp = 3 > 1
-print(comp)
-print(type(comp))
+comparacao = 3 > 1
+print(comparacao)
+print(type(comparacao))
+
+comparacao = 3 < 1
+print(comparacao)
+print(type(comparacao))
 
 # É possível usar variáveis
 print('Usando variável')
