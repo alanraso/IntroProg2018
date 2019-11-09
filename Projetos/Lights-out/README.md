@@ -6,6 +6,9 @@ Para auxiliar na elaboração do projeto do Lights-out, foi desenvolvido um prog
 
 Essa interface gráfica funcionará de forma semelhante a um [plano cartesiano](https://www.todamateria.com.br/plano-cartesiano/) da matemática, ou seja, por meio de coordenadas (x, y) para identificar o posicionamento das coisas. A única diferença é que o eixo y teria o sentido oposto, apontando "para baixo", pois isso facilita a abstração e uso de matrizes na programação.
 
+## Cores em hexadecimal
+Consulte as cores no código hexadecimal usando o [Google](https://www.google.com/search?q=hexadecimal+color+picker&oq=hexadecimal+color+picker&aqs=chrome..69i57j0l5.24917j0j8&sourceid=chrome&ie=UTF-8)
+
 ## Funções disponíveis (board.py)
 
 Nessa [pasta](https://drive.google.com/drive/folders/1fFD45qTN2EFP9Vm2mghrMAId7tQmf4r9?usp=sharing) no Drive, você vai encontrar dois programas: `board.py` e `board_aux.py`. O primeiro contém algumas funções que nos ajudarão com a interface gráfica do jogo, enquanto o segundo tem apenas algumas funções auxiliares para o primeiro. Para criar o jogo, apenas o `board.py` será usado. Segue uma explicação básica de cada uma dessas funções:
