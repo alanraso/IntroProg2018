@@ -1,23 +1,19 @@
-a = int(input('Digite o primeiro numero: '))
-b = int(input('Digite o segundo numero: '))
-c = int(input('Digite o terceiro numero: '))
+def maior(a, b, c):
+  maior = a
+  if b > maior:
+    maior = b
+  if c > maior:
+    maior = c
+  return maior
 
-maior = a
+print(maior(4, 10, 2))
+print(maior(13, 2, 6))
 
-if b > maior:
-  meio = maior
-  maior = b
-else:
-  meio = b
+# Forma mais legal
+def maior_2(a, b):
+  if a > b:
+    return a
+  return b
 
-if c > maior:
-  menor = meio
-  meio = maior
-  maior = c
-elif c > meio:
-  menor = meio
-  meio = c
-else:
-  menor = c
-
-print(menor, meio, maior)
+def maior_3(a, b, c):
+  return maior_2(a, maior_2(b, c))
