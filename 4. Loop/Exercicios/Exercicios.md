@@ -29,3 +29,5 @@ __10.__ Complemente sua função anterior com um programa de forma que ele pergu
 usuário se quer realizar uma nova medida de IMC. Caso a resposta seja positiva, seu
 executa novamente a função do exercício anterior. Caso seja negativa, seu programa
 termina a execução. Você deve perguntar sempre que um novo cálculo for apresentado.
+
+__11.__ Dado um inteiro positivo `n`, imprima quantos números primos existem de 1 a `n`,
