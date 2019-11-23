@@ -5,7 +5,7 @@ __2.__ Dado um inteiro positivo `n`, imprima a soma de todos os números de 1 a 
 __3.__ Escreva um programa que calcula a soma de todos os números de 1 a 200
 que são divisíveis por 3 ou por 7.
 
-__4.__ Escreva uma função que recebe como parâmetro uma string que tem apenas um
+__4.__ Escreva uma função que recebe como parâmetro uma string que é apenas um
 caractere (minúsculo). Retorne `True` se for uma vogal e `False`, caso contrário.
 
 __5.__ Dada uma palavra qualquer (tudo minúsculo), imprima quantas vogais ela tem.
@@ -26,8 +26,11 @@ imprimir o IMC do usuário e também a faixa a qual ele pertence:
   + __Entre 30 e 35:__ obeso
 
 __10.__ Complemente sua função anterior com um programa de forma que ele pergunte ao
-usuário se quer realizar uma nova medida de IMC. Caso a resposta seja positiva, seu
+usuário se quer realizar uma nova medida de IMC. Caso a resposta seja positiva, ele
 executa novamente a função do exercício anterior. Caso seja negativa, seu programa
 termina a execução. Você deve perguntar sempre que um novo cálculo for apresentado.
 
-__11.__ Dado um inteiro positivo `n`, imprima quantos números primos existem de 1 a `n`,
+__11.__ Escreva uma função `primo(n)` que recebe um inteiro como parâmetro e retorna
+`True`, se `n` for primo e `False`, caso contrário.
+
+__12.__ Dado um inteiro positivo `n`, imprima quantos números primos existem de 1 a `n`.

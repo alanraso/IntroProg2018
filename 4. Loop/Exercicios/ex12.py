@@ -11,4 +11,4 @@ for k in range(2, n + 1):
   if primo(k):
     cont += 1
 
-print(cont)
+print(f'Entre 1 e {n} existem {cont} números primos.')
