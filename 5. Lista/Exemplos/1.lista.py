@@ -4,6 +4,7 @@
 # Lista de inteiros
 lista = [1, 3, 7, 30, 1000]
 print(lista)
+print(type(lista))
 
 # Lista de strings
 lista = ['A', 'E', 'A', 'C', 'Palavra']
